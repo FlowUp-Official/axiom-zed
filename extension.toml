@@ -1,0 +1,18 @@
+id = "axiom"
+name = "Axiom"
+description = "Axiom language support: syntax highlighting, diagnostics, completion, hover, go-to-definition, rename and formatting for `.axm` model/query files via the axiom-lsp language server."
+version = "0.1.0"
+schema_version = 1
+authors = ["ahmed mbarek"]
+repository = "https://github.com/FlowUp-Official/axiom-zed"
+
+[language_servers.axiom]
+name = "Axiom"
+languages = ["Axiom"]
+
+# Dedicated tree-sitter grammar for `.axm` files. The grammar name MUST
+# match the symbol exported by the generated parser: `tree_sitter_axm`.
+# Zed compiles the grammar with `-Wl,--export=tree_sitter_<name>`.
+[grammars.axm]
+repository = "https://github.com/FlowUp-Official/tree-sitter-axm"
+commit = "1155fd72f58c7da2fb3ac3f874fbc42ab8ac9aea"

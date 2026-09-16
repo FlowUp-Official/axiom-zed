@@ -1,0 +1,8 @@
+name = "Axiom"
+grammar = "axm"
+path_suffixes = ["axm"]
+line_comments = ["//"]
+tab_size = 2
+
+[overrides.string]
+completion_query_characters = [".", ":"]
