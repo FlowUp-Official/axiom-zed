@@ -11,6 +11,7 @@
 ("extends" @keyword)
 ("select" @keyword)
 ("query" @keyword)
+("transaction" @keyword)
 ("true" @keyword)
 ("false" @keyword)
 
@@ -35,6 +36,9 @@
   name: (identifier) @variable.parameter)
 
 (query_decl
+  name: (identifier) @function)
+
+(transaction_decl
   name: (identifier) @function)
 
 ; Rule/transform calls: `.trim()`, `.email()`, `.min(1)`, ...
