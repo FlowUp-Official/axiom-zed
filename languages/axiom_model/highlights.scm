@@ -6,7 +6,6 @@
 ("import" @keyword)
 ("from" @keyword)
 ("as" @keyword)
-("type" @keyword)
 ("model" @keyword)
 ("extends" @keyword)
 ("select" @keyword)
@@ -23,9 +22,6 @@
 
 (imported_name
   alias: (identifier) @type)
-
-(type_decl
-  name: (identifier) @type)
 
 ; Model/query field names.
 (field_decl
