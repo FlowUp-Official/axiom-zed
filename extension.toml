@@ -15,4 +15,4 @@ languages = ["Axiom"]
 # Zed compiles the grammar with `-Wl,--export=tree_sitter_<name>`.
 [grammars.axm]
 repository = "https://github.com/FlowUp-Official/tree-sitter-axm"
-commit = "4ddba5d10878b47ea4d8ff0ee5a1c576459b4481"
+commit = "5598c1a866929c875344a71fc64d80d1cfac5b54"

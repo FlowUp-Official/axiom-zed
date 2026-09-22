@@ -17,6 +17,10 @@
 (string) @string
 (number) @number
 
+; Decorators: @parse, @safeParse(...), @target(...), @no_codegen,
+; @no_types_codegen, @no_validation_codegen
+(decorator) @attribute
+
 (imported_name
   name: (identifier) @type)
 
